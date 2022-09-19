@@ -1,0 +1,61 @@
+/* -----RESET--------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----DEBUG--------*/
+.debug .top{
+   background-color: #add8e6; 
+   /* height: 50px; */
+
+}
+
+.debug .low{
+    background-color:#00008b;
+    /* height: 50px; */
+
+}
+
+.debug .header-top{
+    background-color: #daa520;
+    height: 50px;
+
+}
+
+.debug .header-low{
+    background-color:#ee82ee;
+    height: 200px;
+}
+
+/* -----COMMON--------*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* -----HEADER--------*/
+section{
+    padding: 16px 0;
+
+}
+
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-low {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -----MAIN--------*/
+
+
+/* -----FOOTER--------*/

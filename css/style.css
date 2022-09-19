@@ -27,7 +27,36 @@
 .debug .header-low{
     background-color:#ee82ee;
     height: 200px;
+    width: 800px;
 }
+
+.debug .first{
+    background-color: rgb(187, 29, 29);
+    height: 500px;
+}
+
+.debug .row{
+    height: 500px;
+}
+
+.debug .col-big{
+    background-color:#1e90ff ;
+}
+
+.debug .col-small{
+    background-color: pink;
+}
+
+.debug .grey{
+    background-color:#d3d3d3 ;
+}
+
+.debug .content{
+    background-color: #228b22;
+    height: 700px;
+}
+
+
 
 /* -----COMMON--------*/
 .container{
@@ -35,10 +64,12 @@
     margin: auto;
 }
 
-/* -----HEADER--------*/
-section{
-    padding: 16px 0;
 
+
+
+/* -----HEADER--------*/
+.top, .low{
+    padding: 16px 0;
 }
 
 
@@ -54,8 +85,30 @@ section{
     align-items: center;
 }
 
+.header-low {
+    display: flex;
+    
+}
+
+
 
 /* -----MAIN--------*/
+
+section{
+    padding: 40px 0;
+}
+.row {
+    display: flex;
+}
+
+.col-big{
+    width: 60%;
+}
+
+.col-small{
+    width: 40%;
+}
+
 
 
 /* -----FOOTER--------*/
